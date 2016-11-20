@@ -77,7 +77,7 @@ $(function() {
         });
         //fix to meet requirement: check if there is at least 01 .entry element in the .feed container
         it('there is at least 01 .entry element in the .feed container', function() {
-            expect($('.entry').length).not.toBe(0);
+            expect($('.feed .entry').length).not.toBe(0);
         });
     });
     /* This is our fourth test suite named "New Feed Selection"
