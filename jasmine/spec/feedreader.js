@@ -32,7 +32,7 @@ $(function() {
             for (i=0; i<allFeeds.length; i++) {
                 expect(allFeeds[i].url).toBeDefined();
                 expect(allFeeds[i].url).not.toBe('');
-            };
+            }
          });
         /* Here we test that each feed has a name defined
          * and this name is not empty.*/
@@ -40,7 +40,7 @@ $(function() {
             for (i=0; i<allFeeds.length; i++) {
                 expect(allFeeds[i].name).toBeDefined();
                 expect(allFeeds[i].name).not.toBe('');
-            };
+            }
          });
     });
     /* This is the second test suite named "The menu" */
